@@ -19,10 +19,10 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@root/*": ["./src/"],
-      "@components/*": ["./src/components"],
+      "@*": ["./src/"],
+      "@components/*": ["./src/components/*"],
       "@hooks/*": ["./src/hooks"],
-      "@lib/*": ["./src/lib"],
+      "@lib/*": ["./src/lib/*"],
       "@app-state/*": ["./src/state/*"]
     },
     "typeRoots": ["./node_modules/@types", "./src/types"],
