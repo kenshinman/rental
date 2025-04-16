@@ -1,9 +1,9 @@
 "use client";
 
-import StoreProvider from "../../state/redux";
-import {FC, PropsWithChildren} from "react";
+import StoreProvider from "@app-state/redux";
+import {ReactNode} from "react";
 
-const Providers: FC<PropsWithChildren> = ({children}) => {
+const Providers = ({children}: {children: ReactNode}) => {
   return <StoreProvider>{children}</StoreProvider>;
 };
 
